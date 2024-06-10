@@ -5,7 +5,7 @@ random coding practice
 | #   | Solution                                                              |
 | --- | --------------------------------------------------------------------- |
 | 1   | [Curry](./src/curry.ts)                                               |
-| 2   | Curry with placeholder support                                        |
+| 2   | [Curry with placeholder support](./src/curry_placeholder)             |
 | 3   | Implement Array.prototype.flat()                                      |
 | 4   | Implement Basic throttle()                                            |
 | 5   | Implement throttle() with leading & trailing option                   |
