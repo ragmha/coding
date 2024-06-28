@@ -1,4 +1,4 @@
-# coding
+# coding (3/ 176)
 
 random coding practice
 
@@ -6,7 +6,7 @@ random coding practice
 | --- | --------------------------------------------------------------------- | ---------------------------------------------------------- |
 | 1   | Curry                                                                 | [Typescript](./src/curry/curry.ts)                         |
 | 2   | Curry with placeholder support                                        | [Typescript](./src/curry-placeholder/curry-placeholder.ts) |
-| 3   | Implement Array.prototype.flat()                                      |                                                            |
+| 3   | Implement Array.prototype.flat()                                      | [Typescript](./src/array-proto-flat/array-proto-flat.ts)   |
 | 4   | Implement Basic throttle()                                            |                                                            |
 | 5   | Implement throttle() with leading & trailing option                   |                                                            |
 | 6   | Implement basic debounce()                                            |                                                            |
