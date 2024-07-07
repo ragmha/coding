@@ -1,4 +1,4 @@
-# coding (3/ 176)
+# coding (4/ 176)
 
 random coding practice
 
@@ -14,7 +14,7 @@ random coding practice
 | 8   | Can you shuffle() an array?                                           |                                                            |
 | 9   | Decode message                                                        |                                                            |
 | 10  | First bad version                                                     |                                                            |
-| 11  | What is Composition? create a pipe                                    |                                                            |
+| 11  | What is Composition? create a pipe                                    | [Typescript]('./src/composition/composition.ts')           |
 | 12  | Implement Immutability helper                                         |                                                            |
 | 13  | Implement a Queue by using Stack                                      |                                                            |
 | 14  | Implement a general memoization function - `memo()`                   |                                                            |
