@@ -9,7 +9,7 @@ random coding practice
 | 3   | Implement Array.prototype.flat()                                      | [Typescript](./src/array-proto-flat/array-proto-flat.ts)   |
 | 4   | Implement Basic throttle()                                            |                                                            |
 | 5   | Implement throttle() with leading & trailing option                   |                                                            |
-| 6   | Implement basic debounce()                                            |                                                            |
+| 6   | Implement basic debounce()                                            | [Typescript](./src/debounce/debounce.ts)                   |
 | 7   | Implement debounce() with leading & trailing option                   |                                                            |
 | 8   | Can you shuffle() an array?                                           |                                                            |
 | 9   | Decode message                                                        |                                                            |
