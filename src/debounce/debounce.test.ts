@@ -42,4 +42,25 @@ describe('Debounce', () => {
       done()
     }, 20)
   })
+
+  test('executes function immediately on flush', (done: () => void) => {
+    let count = 0
+
+    const increment = debounce(() => {
+      count++
+    }, 100)
+
+    expect(count).toBe(0)
+
+    increment()
+
+    increment.flush()
+
+    expect(count).toBe(1)
+
+    setTimeout(() => {
+      expect(count).toBe(1)
+      done()
+    }, 200)
+  })
 })

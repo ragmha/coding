@@ -7,6 +7,7 @@ export function debounce<T extends (...args: unknown[]) => unknown>(
 ): {
   (...args: Parameters<T>): void
   cancel: () => void
+  flush: () => void
 } {
   let timeoutID: ReturnType<typeof setTimeout> | null = null
 
@@ -25,6 +26,16 @@ export function debounce<T extends (...args: unknown[]) => unknown>(
   debounced.cancel = () => {
     clearTimeout(timeoutID || undefined)
     timeoutID = null
+  }
+
+  // Flush: Executes the debounced function immediately if pending
+
+  debounced.flush = () => {
+    if (timeoutID) {
+      clearTimeout(timeoutID)
+      timeoutID = null
+      func()
+    }
   }
 
   return debounced
