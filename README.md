@@ -1,4 +1,4 @@
-# coding (4/ 176)
+# coding (7/ 176)
 
 random coding practice
 
@@ -49,7 +49,7 @@ random coding practice
 | 43  | Implement Quick Sort                                                  |                                                            |
 | 44  | Implement Selection Sort                                              |                                                            |
 | 45  | Find the K-th largest element in an unsorted array                    |                                                            |
-| 46  | Implement `_.once()`                                                  |                                                            |
+| 46  | Implement `_.once()`                                                  |  [Typescript](./src/once/once.ts)                          |
 | 47  | Reverse a linked list                                                 |                                                            |
 | 48  | Search first index with Binary Search(possible duplicate array)       |                                                            |
 | 176 | Undefined to null                                                     | [Typescript](./src/undefined-to-null/undefined-to-null.ts) |
